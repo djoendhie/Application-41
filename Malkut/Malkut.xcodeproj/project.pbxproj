@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546A052D7249FDE9AD4155B4 /* Pods_Malkut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828DA24B3A3327066C6F0CFD /* Pods_Malkut.framework */; };
+		D68DC88F1FD13BB50069A97E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68DC88E1FD13BB50069A97E /* TableViewController.swift */; };
+		D68DC8911FD13BC00069A97E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68DC8901FD13BC00069A97E /* TableViewCell.swift */; };
+		D6CB3DD61FC9534B004F8248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3DD51FC9534B004F8248 /* AppDelegate.swift */; };
+		D6CB3DD81FC9534B004F8248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3DD71FC9534B004F8248 /* ViewController.swift */; };
+		D6CB3DDB1FC9534B004F8248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3DD91FC9534B004F8248 /* Main.storyboard */; };
+		D6CB3DDD1FC9534B004F8248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3DDC1FC9534B004F8248 /* Assets.xcassets */; };
+		D6CB3DE01FC9534B004F8248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3DDE1FC9534B004F8248 /* LaunchScreen.storyboard */; };
+		D6CB3DEB1FC9534B004F8248 /* MalkutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3DEA1FC9534B004F8248 /* MalkutTests.swift */; };
+		D6CB3DF61FC9534C004F8248 /* MalkutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3DF51FC9534C004F8248 /* MalkutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CB3DE71FC9534B004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3DCA1FC9534B004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3DD11FC9534B004F8248;
+			remoteInfo = Malkut;
+		};
+		D6CB3DF21FC9534C004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3DCA1FC9534B004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3DD11FC9534B004F8248;
+			remoteInfo = Malkut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CFF6FB1CF2BB274491F1553 /* Pods-Malkut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Malkut.release.xcconfig"; path = "Pods/Target Support Files/Pods-Malkut/Pods-Malkut.release.xcconfig"; sourceTree = "<group>"; };
+		7DCE52772D99248F9F65B0C1 /* Pods-Malkut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Malkut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Malkut/Pods-Malkut.debug.xcconfig"; sourceTree = "<group>"; };
+		828DA24B3A3327066C6F0CFD /* Pods_Malkut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Malkut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68DC88E1FD13BB50069A97E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D68DC8901FD13BC00069A97E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D6CB3DD21FC9534B004F8248 /* Malkut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Malkut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3DD51FC9534B004F8248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6CB3DD71FC9534B004F8248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6CB3DDA1FC9534B004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CB3DDC1FC9534B004F8248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CB3DDF1FC9534B004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CB3DE11FC9534B004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3DE61FC9534B004F8248 /* MalkutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalkutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3DEA1FC9534B004F8248 /* MalkutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalkutTests.swift; sourceTree = "<group>"; };
+		D6CB3DEC1FC9534B004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3DF11FC9534C004F8248 /* MalkutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalkutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3DF51FC9534C004F8248 /* MalkutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalkutUITests.swift; sourceTree = "<group>"; };
+		D6CB3DF71FC9534C004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CB3DCF1FC9534B004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546A052D7249FDE9AD4155B4 /* Pods_Malkut.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3DE31FC9534B004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3DEE1FC9534C004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37510C19C19C30B725AF40C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828DA24B3A3327066C6F0CFD /* Pods_Malkut.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2F69B9227E2671871BC760B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DCE52772D99248F9F65B0C1 /* Pods-Malkut.debug.xcconfig */,
+				3CFF6FB1CF2BB274491F1553 /* Pods-Malkut.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6CB3DC91FC9534B004F8248 = {
+			isa = PBXGroup;
+			children = (
+				D6CB3DD41FC9534B004F8248 /* Malkut */,
+				D6CB3DE91FC9534B004F8248 /* MalkutTests */,
+				D6CB3DF41FC9534C004F8248 /* MalkutUITests */,
+				D6CB3DD31FC9534B004F8248 /* Products */,
+				C2F69B9227E2671871BC760B /* Pods */,
+				37510C19C19C30B725AF40C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CB3DD31FC9534B004F8248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3DD21FC9534B004F8248 /* Malkut.app */,
+				D6CB3DE61FC9534B004F8248 /* MalkutTests.xctest */,
+				D6CB3DF11FC9534C004F8248 /* MalkutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CB3DD41FC9534B004F8248 /* Malkut */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3DD51FC9534B004F8248 /* AppDelegate.swift */,
+				D6CB3DD91FC9534B004F8248 /* Main.storyboard */,
+				D6CB3DDC1FC9534B004F8248 /* Assets.xcassets */,
+				D6CB3DDE1FC9534B004F8248 /* LaunchScreen.storyboard */,
+				D6CB3DE11FC9534B004F8248 /* Info.plist */,
+				D68DC88E1FD13BB50069A97E /* TableViewController.swift */,
+				D6CB3DD71FC9534B004F8248 /* ViewController.swift */,
+				D68DC8901FD13BC00069A97E /* TableViewCell.swift */,
+			);
+			path = Malkut;
+			sourceTree = "<group>";
+		};
+		D6CB3DE91FC9534B004F8248 /* MalkutTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3DEA1FC9534B004F8248 /* MalkutTests.swift */,
+				D6CB3DEC1FC9534B004F8248 /* Info.plist */,
+			);
+			path = MalkutTests;
+			sourceTree = "<group>";
+		};
+		D6CB3DF41FC9534C004F8248 /* MalkutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3DF51FC9534C004F8248 /* MalkutUITests.swift */,
+				D6CB3DF71FC9534C004F8248 /* Info.plist */,
+			);
+			path = MalkutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CB3DD11FC9534B004F8248 /* Malkut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3DFA1FC9534C004F8248 /* Build configuration list for PBXNativeTarget "Malkut" */;
+			buildPhases = (
+				5E706FFC449E2BE96F1BDB0A /* [CP] Check Pods Manifest.lock */,
+				D6CB3DCE1FC9534B004F8248 /* Sources */,
+				D6CB3DCF1FC9534B004F8248 /* Frameworks */,
+				D6CB3DD01FC9534B004F8248 /* Resources */,
+				8CDDF9DDC0E3CB03D3E08A06 /* [CP] Embed Pods Frameworks */,
+				0B81D46A1AC0555049AA6CE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Malkut;
+			productName = Malkut;
+			productReference = D6CB3DD21FC9534B004F8248 /* Malkut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CB3DE51FC9534B004F8248 /* MalkutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3DFD1FC9534C004F8248 /* Build configuration list for PBXNativeTarget "MalkutTests" */;
+			buildPhases = (
+				D6CB3DE21FC9534B004F8248 /* Sources */,
+				D6CB3DE31FC9534B004F8248 /* Frameworks */,
+				D6CB3DE41FC9534B004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3DE81FC9534B004F8248 /* PBXTargetDependency */,
+			);
+			name = MalkutTests;
+			productName = MalkutTests;
+			productReference = D6CB3DE61FC9534B004F8248 /* MalkutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CB3DF01FC9534C004F8248 /* MalkutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3E001FC9534C004F8248 /* Build configuration list for PBXNativeTarget "MalkutUITests" */;
+			buildPhases = (
+				D6CB3DED1FC9534C004F8248 /* Sources */,
+				D6CB3DEE1FC9534C004F8248 /* Frameworks */,
+				D6CB3DEF1FC9534C004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3DF31FC9534C004F8248 /* PBXTargetDependency */,
+			);
+			name = MalkutUITests;
+			productName = MalkutUITests;
+			productReference = D6CB3DF11FC9534C004F8248 /* MalkutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CB3DCA1FC9534B004F8248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6CB3DD11FC9534B004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6CB3DE51FC9534B004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3DD11FC9534B004F8248;
+					};
+					D6CB3DF01FC9534C004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3DD11FC9534B004F8248;
+					};
+				};
+			};
+			buildConfigurationList = D6CB3DCD1FC9534B004F8248 /* Build configuration list for PBXProject "Malkut" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CB3DC91FC9534B004F8248;
+			productRefGroup = D6CB3DD31FC9534B004F8248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CB3DD11FC9534B004F8248 /* Malkut */,
+				D6CB3DE51FC9534B004F8248 /* MalkutTests */,
+				D6CB3DF01FC9534C004F8248 /* MalkutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CB3DD01FC9534B004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3DE01FC9534B004F8248 /* LaunchScreen.storyboard in Resources */,
+				D6CB3DDD1FC9534B004F8248 /* Assets.xcassets in Resources */,
+				D6CB3DDB1FC9534B004F8248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3DE41FC9534B004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3DEF1FC9534C004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B81D46A1AC0555049AA6CE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Malkut/Pods-Malkut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E706FFC449E2BE96F1BDB0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Malkut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CDDF9DDC0E3CB03D3E08A06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Malkut/Pods-Malkut-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Malkut/Pods-Malkut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CB3DCE1FC9534B004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3DD81FC9534B004F8248 /* ViewController.swift in Sources */,
+				D68DC8911FD13BC00069A97E /* TableViewCell.swift in Sources */,
+				D68DC88F1FD13BB50069A97E /* TableViewController.swift in Sources */,
+				D6CB3DD61FC9534B004F8248 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3DE21FC9534B004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3DEB1FC9534B004F8248 /* MalkutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3DED1FC9534C004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3DF61FC9534C004F8248 /* MalkutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CB3DE81FC9534B004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3DD11FC9534B004F8248 /* Malkut */;
+			targetProxy = D6CB3DE71FC9534B004F8248 /* PBXContainerItemProxy */;
+		};
+		D6CB3DF31FC9534C004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3DD11FC9534B004F8248 /* Malkut */;
+			targetProxy = D6CB3DF21FC9534C004F8248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CB3DD91FC9534B004F8248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3DDA1FC9534B004F8248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CB3DDE1FC9534B004F8248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3DDF1FC9534B004F8248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CB3DF81FC9534C004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6CB3DF91FC9534C004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CB3DFB1FC9534C004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCE52772D99248F9F65B0C1 /* Pods-Malkut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Malkut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Malkut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CB3DFC1FC9534C004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFF6FB1CF2BB274491F1553 /* Pods-Malkut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Malkut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Malkut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CB3DFE1FC9534C004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalkutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.MalkutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Malkut.app/Malkut";
+			};
+			name = Debug;
+		};
+		D6CB3DFF1FC9534C004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalkutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.MalkutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Malkut.app/Malkut";
+			};
+			name = Release;
+		};
+		D6CB3E011FC9534C004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalkutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.MalkutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Malkut;
+			};
+			name = Debug;
+		};
+		D6CB3E021FC9534C004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalkutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.MalkutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Malkut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CB3DCD1FC9534B004F8248 /* Build configuration list for PBXProject "Malkut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3DF81FC9534C004F8248 /* Debug */,
+				D6CB3DF91FC9534C004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3DFA1FC9534C004F8248 /* Build configuration list for PBXNativeTarget "Malkut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3DFB1FC9534C004F8248 /* Debug */,
+				D6CB3DFC1FC9534C004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3DFD1FC9534C004F8248 /* Build configuration list for PBXNativeTarget "MalkutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3DFE1FC9534C004F8248 /* Debug */,
+				D6CB3DFF1FC9534C004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3E001FC9534C004F8248 /* Build configuration list for PBXNativeTarget "MalkutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3E011FC9534C004F8248 /* Debug */,
+				D6CB3E021FC9534C004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CB3DCA1FC9534B004F8248 /* Project object */;
+}
